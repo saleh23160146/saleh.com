@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>SALEH</title>
+    <meta name="description" content=" Abaraa Webpage ">
+    <meta name="keyword" content="albaraa,baraa,baraa webpage,baraa online,html,css,java,c++,javascript,php">
+    <link rel="icon" href="icon/me_icon_155139.ico">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <section class="home" id="home">
+        <nav>
+            <h2>SALEH <span>AL-JONAID</span></h2>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact-me">Contact Me</a></li>
+            </ul>
+            <a href="#" id="button" class="btn">Login</a>
+        </nav>
+        <div class="popup">
+            <div class="popup-content">
+                <img src="imge/close1.png" alt="" class="close">
+                <img src="imge/profile1.png" alt="">
+                <form action="">
+                    <input type="text" class="login-box" placeholder="Username" required>
+                    <input type="password" class="login-box" placeholder="Password" required>
+                    <input type="submit" class="login-btn" value="Login">
+                </form>
+            </div>
+        </div>
+
+        <script>
+            document.addEventListener('DOMContentLoaded', function() {
+                document.getElementById("button").addEventListener("click", function(){
+                    document.querySelector(".popup").style.display = "flex";
+                });
+
+                document.querySelector(".close").addEventListener("click", function(){
+                    document.querySelector(".popup").style.display = "none";
+                });
+            });
+        </script>
+
+        <div class="content">
+            <div class="content-texts">
+                <h4>Hello, my name is</h4>
+                <h1>SALEH <span>AL-JONAID</span></h1>
+                <h3>I'm a <span>Full-Stack</span> developer.</h3>
+                <a href="#" class="btn">Download CV</a>
+                <div class="social">
+                    <a href="#"><img src="imge/Facebook.png" alt=""></a>
+                    <a href="#"><img src="imge/instagram.png" alt=""></a>
+                    <a href="#"><img src="imge/in_linked.png" alt=""></a>
+                    <a href="#"><img src="imge/youtube.png" alt=""></a>
+                </div>
+            </div>
+            <div class="container-images">
+                <img src="aaa.jpg" alt="" class="pic" width="30px">
+            </div>
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="container-images">
+            <img src="imge/Programming.png" alt="">
+        </div>
+        <div class="container-texts">
+            <h1>About <span>Me</span></h1>
+            <h5> <span>Full-Stack</span> Developer</h5>
+            <p>
+                I am a front-end web developer. I can provide clean code and pixel perfect design.
+                I also make the website more & more interactive with web animations.
+                A responsive design makes your website accessible to all users regardless of their device.
+            </p>
+        </div>
+    </section>
+
+    <section class="services" id="services">
+        <h1 class="text-center"><span>Our </span>Services</h1>
+        <div class="box">
+            <div class="card">
+                <h5>Mobile Dev</h5>
+                <div class="par">
+                    <p>
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quibusdam minima quisquam natus, magnam placeat perspiciatis et!
+                    </p>
+                </div>
+            </div>
+            <div class="card">
+                <h5>Web Dev</h5>
+                <div class="par">
+                    <p>
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quibusdam minima quisquam natus, magnam placeat perspiciatis et!
+                    </p>
+                </div>
+            </div>
+            <div class="card">
+                <h5>Desktop Dev</h5>
+                <div class="par">
+                    <p>
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quibusdam minima quisquam natus, magnam placeat perspiciatis et!
+                    </p>
+                </div>
+            </div>
+            <div class="card">
+                <h5>Architect</h5>
+                <div class="par">
+                    <p>
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quibusdam minima quisquam natus, magnam placeat perspiciatis et!
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="skills" id="skills">
+        <div class="container-skills">
+            <h1><span>My </span>Skills</h1>
+           <div class="content-skills">
+                <div class="skill"><img src="imge/html.png" alt=""></div>
+                <div class="skill"><img src="imge/css.png" alt=""></div>
+                <div class="skill"><img src="imge/php.png" alt=""></div>
+                <div class="skill"><img src="imge/javascript.png" alt=""></div>
+                <div class="skill"><img src="imge/c++.png" alt=""></div>
+                <div class="skill"><img src="imge/csharp.png" alt=""></div>
+                <div class="skill"><img src="imge/java.png" alt=""></div>
+                <div class="skill"><img src="imge/python.png" alt=""></div>
+                <div class="skill"><img src="imge/mysql.png" alt=""></div>
+                <div class="skill"><img src="imge/camera.png" alt=""></div>
+           </div>
+        </div>
+        <div class="container-images">
+            <img src="imge/Skills.png" alt="">
+        </div>
+    </section>
+
+    <section class="contact-me" id="contact-me">
+        <div class="contact-form">
+            <h1>Contact <span>Me</span></h1>
+            <form action="" class="contact">
+                <div class="container-input">
+                <input type="text" class="text-box" placeholder="Your Name" required>
+                <input type="email" class="text-box" placeholder="Your Email" required>
+                <textarea name="" rows="5" placeholder="Your Message" required></textarea>
+                <input type="submit" class="send-btn" value="Send">
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="content-footer">
+            <h2>SALEH <span>AL-JONAID</span></h2>
+            <p>
+                For more HTML, CSS, and coding tutorial - please click on the link below to subscribe to my channel :
+            </p>
+            <p class="end">
+                CopyRight By SALEH AL-JONAID
+            </p>
+        </div>
+    </footer>
+</body>
+</html>
